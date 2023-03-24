@@ -1,0 +1,239 @@
+<html lang="en">
+<style>
+    #search_box {
+        border: 1px solid rgb(235, 235, 235);
+        padding: 9px 4px 9px 200px;
+        border-radius: 5px;
+        background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+        text-align: left;
+    }
+    
+    #top_taskbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #top_taskbar_left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    #top_taskbar_right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 35%;
+    }
+    
+    #form_searchbox {
+        margin-bottom: 0;
+    }
+    
+    #mid_page_hr {
+        color: rgb(255, 255, 255);
+        size: 1px;
+    }
+    
+    #mid_page_layout_rate {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 10%;
+    }
+    
+    #mid_page_layout_rate_right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 12%;
+    }
+    
+    #mid_page_layout_rate_left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 15%;
+    }
+    
+    #share {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    #like {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    #mid_page {
+        margin: 10px 100px 100px 220px;
+    }
+    
+    #mid_page_img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 5px;
+        row-gap: 5px;
+        width: 100%;
+    }
+    
+    #mid_page_img_type {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 5px;
+        row-gap: 15px;
+        width: 100%;
+    }
+    
+    #mid_page_text {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #mid_page_text_left {
+        width: 60%;
+    }
+    
+    #mid_page_text_right {
+        width: 35%;
+    }
+    
+    #mid_page_text_left_menubar {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    #mid_page_text_right_money {
+        text-align: right;
+        color: rgb(2, 197, 197);
+    }
+    
+    #select_box {
+        padding: 3px 4px 9px 150px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan 5</title>
+</head>
+
+<body>
+    <div id="main_page">
+        <div id="top_taskbar">
+            <div id="top_taskbar_left">
+                <img src="HinhAnh/Image 1713.png" alt="">
+
+                <div>Menu</div>
+                <div>Promotions</div>
+                <div>Best-sellers</div>
+                <div>New releases</div>
+                <div>Support</div>
+
+            </div>
+            <div id="top_taskbar_right">
+                <form action="search" id="form_searchbox">
+                    <input type="text" name="" id="search_box" placeholder="Search...">
+                </form>
+                <img src="HinhAnh/Bell 1.png" alt="">
+                <img src="HinhAnh/Shopping cart simple 1.png" alt="">
+                <img src="HinhAnh/Avatar 758.png" alt="">
+
+            </div>
+        </div>
+        <hr id="mid_page_hr">
+        <div id="mid_page">
+            <h4 id="mid_page_tree">
+                Home / Promotions / Product title
+            </h4>
+            <h1>Product title</h1>
+            <div id="mid_page_layout">
+                <div id="mid_page_layout_rate">
+                    <div id="mid_page_layout_rate_left">
+                        <img src="HinhAnh/Rating 303.png" alt="">
+                        <h5>4.20</h5>
+                        <p>(99 reviews)</p>
+                    </div>
+                    <div id="mid_page_layout_rate_right">
+                        <div id="share">
+                            <img src="HinhAnh/share.png" alt="">
+                            <p>Share</p>
+                        </div>
+                        <div id="like">
+                            <img src="HinhAnh/Heart 23.png" alt="">
+                            <p>Save</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mid_page_img">
+                <div id="mid_page_img_type">
+                    <img src="HinhAnh/Image 1705.png" alt="">
+                </div>
+                <div id="mid_page_img_type">
+                    <img src="HinhAnh/Image 1708.png" alt="">
+                    <img src="HinhAnh/Image 1706.png" alt="">
+                </div>
+                <div id="mid_page_img_type">
+                    <img src="HinhAnh/Image 1707.png" alt="">
+                    <img src="HinhAnh/Image 1709.png" alt="">
+                </div>
+            </div>
+            <div id="mid_page_text">
+                <div id="mid_page_text_left">
+                    <h2>
+                        Product description
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lorem aliquam sed lacinia quis. Nibh dictumst vulputateodio pellentesque sit quis ac, sit ipsum. Sit rhoncus velit in sed massa arcu sit eu. Vitae et vitae eget lorem non
+                        dui. Sollicitudin ut mi adipiscing duis.</p>
+                    <p>Convallis in semper laoreet nibh leo. Vivamus malesuada ipsum pulvinar non rutrum risus dui, risus. Purus massa velitiaculis tincidunt tortor, risus, scelerisque risus. In at lorem pellentesque orci aenean dictum dignissim in. Aeneanpulvinar
+                        diam interdum ullamcorper. Vel urna, tortor, massa metus purus metus. Maecenas mollis in velit auctor cursusscelerisque eget.</p>
+                    <div id="mid_page_text_left_menubar">
+                        <div>
+                            <img src="HinhAnh/Truck 1.png" alt="">
+                            <p>Free delivery</p>
+                            <img src="HinhAnh/Globe 1.png" alt="">
+                            <p>Made in USA</p>
+                            <img src="HinhAnh/Chat dots 1.png" alt="">
+                            <p>100% authentic</p>
+                        </div>
+                        <div>
+                            <img src="HinhAnh/Arrow bend up left 1.png" alt="">
+                            <p>7 days return</p>
+                            <img src="HinhAnh/Medal 1.png" alt="">
+                            <p>2 years guarantee</p>
+                            <img src="HinhAnh/Checks 1.png" alt="">
+                            <p>24/7 customer support</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="mid_page_text_right">
+                    <h1 id="mid_page_text_right_money">$99</h1>
+                    <select name="" id="select_box"></select>
+                    <select name="" id="select_box"></select>
+                    <select name="" id="select_box"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
